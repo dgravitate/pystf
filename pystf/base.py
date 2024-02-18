@@ -31,7 +31,7 @@ class BaseTransform:
 
     @classmethod
     def get_transformer_for_type(cls, stream, output='dict', strict=False, delimiter="."):
-        from stf import transformers  # noqa
+        from . import transformers  # noqa
 
         stream_type = determine_stream_type(stream)
         try:
