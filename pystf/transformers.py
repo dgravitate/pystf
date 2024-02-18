@@ -3,7 +3,7 @@ import json
 import xmltodict
 import yaml
 
-from stf.base import BaseTransform, REGISTERED_TRANSFORMERS
+from .base import BaseTransform, REGISTERED_TRANSFORMERS
 
 
 class JSONTransform(BaseTransform):

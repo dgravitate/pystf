@@ -1,4 +1,4 @@
-# STF (Stream TransFormer)
+# pySTF (Stream TransFormer)
 
 ## Table of Contents
 
@@ -11,7 +11,7 @@
 
 ## Introduction
 
-STF (pronounced `stuff`) aims to be lightweight, superfast, fault-tolerant stream transformer/ETL tool.
+pySTF (pronounced `stuff`) aims to be lightweight, superfast, fault-tolerant stream transformer/ETL tool.
 
 ## Features
 

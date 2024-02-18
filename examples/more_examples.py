@@ -2,7 +2,7 @@ import dataclasses
 import time
 from copy import copy
 
-from stf.base import BaseTransform
+from pystf.base import BaseTransform
 
 TRANSFORM_MAP = {
             'hidden_keys': {'action': 'select', 'filter': 'parse.categories', 'criteria': 'hidden == ""',

@@ -1,4 +1,4 @@
-from stf.exceptions import InvalidStreamType
+from .exceptions import InvalidStreamType
 
 
 def is_class(obj):

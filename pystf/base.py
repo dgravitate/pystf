@@ -7,10 +7,10 @@ except ImportError:
     django = None
     Template = None
 
-from stf.exceptions import InvalidStreamType
-from stf.types import Criteria, EmptyStream, ValueNotFound
-from stf.renderers import REGISTERED_RENDERERS, GenericClassRenderer
-from stf.utils import is_class, determine_stream_type
+from .exceptions import InvalidStreamType
+from .types import Criteria, EmptyStream, ValueNotFound
+from .renderers import REGISTERED_RENDERERS, GenericClassRenderer
+from .utils import is_class, determine_stream_type
 
 REGISTERED_TRANSFORMERS = {}
 

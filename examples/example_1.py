@@ -1,4 +1,4 @@
-from stf.transformers import get_transformer
+from pystf.transformers import get_transformer
 
 
 class T:

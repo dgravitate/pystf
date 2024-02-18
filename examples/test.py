@@ -1,7 +1,7 @@
 import sys
 
-from stf.base import BaseTransform
-from stf.transformers import XMLTransform
+from pystf.base import BaseTransform
+from pystf.transformers import XMLTransform
 
 
 with open(sys.argv[1], "r") as f:
